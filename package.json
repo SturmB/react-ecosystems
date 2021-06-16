@@ -1,16 +1,31 @@
 {
   "name": "react-ecosystems",
   "version": "1.0.0",
-  "description": "",
+  "description": "A reference project for React, Redux, Thunk, Styled-Components, Mocha, and Chai",
   "main": "index.js",
   "scripts": {
     "dev": "npx webpack serve --mode development",
     "build": "npx webpack --mode development",
     "test": "mocha \"src/**/*.test.js\" --require @babel/register --recursive"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SturmB/react-ecosystems.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "thunk",
+    "styled-components",
+    "mocha",
+    "chai"
+  ],
+  "author": "Chris McGee",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SturmB/react-ecosystems/issues"
+  },
+  "homepage": "https://github.com/SturmB/react-ecosystems#readme",
   "devDependencies": {
     "@babel/cli": "^7.14.5",
     "@babel/core": "^7.14.6",
